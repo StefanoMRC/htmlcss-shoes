@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* UTILITY */
+.t-giallo{
+    color: yellow;
+}
+.t-green{
+    color: green;
+}
+h2{
+    text-align: center;
+    font-size: 7em;
+    font-variant: small-caps;
+}
+
+
+/* FINE UTILITY */
+
+/* MENU DI SCROLL */
+
+ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+ul li{
+    
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.num{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 1;
+}
+
+/* MENU DI SCROLL */
+
+/* PAGINA 1 */
+#pag-1{
+ height: 100vh;
+ background-color: red;
+ position: relative;
+}
+.jordan{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    right: 50%;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+.jordan img{
+    height: 800px;
+}
+
+.modello-punta{
+    position:absolute;
+    width: 50%;
+    right: 50%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* FINE PAGINA 1 */
+
+/* PAGINA 2 */
+#pag-2{
+    height: 100vh;
+    background-color: green;
+    position: relative;
+}
+
+.converse img{
+    height: 500px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+/* FINE PAGINA 2 */
+
+/* PAGINA 3 */
+#pag-3{
+    background-color: yellow;
+    position: relative;
+    height: 100vh;
+}
+.tommy img{
+    height: 500px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+/* FINE PAGINA 3 */
