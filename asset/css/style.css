@@ -31,10 +31,15 @@ ul li a{
     vertical-align: middle;
     text-align: center;
     padding: 20px 30px;
-    background-color: lightgray;
+    background-color: whitesmoke;
     border-radius: 50%;
+    font-weight: bold;
+    color: black;
 }
-
+ul li:hover{
+    transition: all 0.6s ease;
+    transform: rotate(360deg);
+}
 ul li{
     
     display: inline-block;
