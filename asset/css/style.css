@@ -15,11 +15,9 @@ html{
 }
 h2{
     text-align: center;
-    font-size: 7em;
+    font-size: 6em;
     font-variant: small-caps;
 }
-
-
 /* FINE UTILITY */
 
 /* MENU DI SCROLL */
@@ -40,8 +38,10 @@ ul li:hover{
     transition: all 0.6s ease;
     transform: rotate(360deg);
 }
+ul li a:hover{
+    box-shadow: 5px 5px 10px black;
+}
 ul li{
-    
     display: inline-block;
     list-style-type: none;
     border-radius: 50%;
@@ -63,24 +63,17 @@ ul li{
  position: relative;
 }
 
-.superga img{
-    height: 500px;
+.superga{
     position: absolute;
-    right: 50%;
     top: 50%;
     left: 50%;
-    bottom: 50%;
     transform: translate(-50%, -50%);
+}
+.superga img{
+    width: 100%;
 }
 
-.modello-punta{
-    position:absolute;
-    width: 50%;
-    right: 50%;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 /* FINE PAGINA 1 */
 
 /* PAGINA 2 */
@@ -90,14 +83,14 @@ ul li{
     position: relative;
 }
 
-.converse img{
-    height: 500px;
+.converse{
     position: absolute;
-    right: 50%;
     top: 50%;
     left: 50%;
-    bottom: 50%;
     transform: translate(-50%, -50%);
+}
+.converse img{
+    width: 100%;
 }
 /* FINE PAGINA 2 */
 
@@ -107,13 +100,13 @@ ul li{
     position: relative;
     height: 100vh;
 }
-.tommy img{
-    height: 500px;
+.tommy{
     position: absolute;
-    right: 50%;
     top: 50%;
     left: 50%;
-    bottom: 50%;
     transform: translate(-50%, -50%);
+}
+.tommy img{
+    width: 100%;
 }
 /* FINE PAGINA 3 */
